@@ -81,7 +81,7 @@ pub fn rasterize(buffer: []Color, width: usize, height: usize, t: Triangle) void
     }
 }
 
-test "vertices get pure colors" {
+test "vertex get pure colors" {
     const t = Triangle{
         .a = .{ .x = 0, .y = 100 },
         .b = .{ .x = 50, .y = 0 },
