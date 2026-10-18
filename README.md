@@ -22,5 +22,3 @@ zig build test
 - Arrastrar un vértice con el mouse: deforma el triángulo en tiempo real
 
 Probado con Zig 0.16.0.
-
-![captura](captura.png)
